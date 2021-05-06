@@ -28,13 +28,13 @@
         "arrowColor": "#ff0c00"
       },
       "additionalSetColors": [
+        "#bffff8",
+        "#7ae6ff",
         "#113b5b",
         "#ff0c00",
         "#ff7800",
         "#0eb3a6",
-        "#38d9c7",
-        "#3f485d",
-        "#fffee6"
+        "#38d9c7"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -84,7 +84,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 325,
+    "uniqCompNum": 332,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
@@ -2067,172 +2067,6 @@
         }
       ]
     },
-    "laura-cv.html": {
-      "settings": {
-        "title": "laura cañas /cv",
-        "order": 7
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text": {
-              "text-align": "left"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><b>LAURA CAÑAS&nbsp;</b><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">/CV/</b><br><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\"><br></b><div>\n</div><div>\n</div><div>Artista y comunicadora social, con experiencia e interés en la obra gráfica,  ilustración e historieta, periodismo, gestión de redes sociales y archivos. Su trabajo se desarrolla en la intersección entre el arte y la comunicación, con especial interés en narrativas que cuenten historias y/o capturen momentos y situaciones del momento actual, soportadas en una investigación profunda y observación detallada de la realidad. Tiene interés tanto por la ficción como la no ficción y encuentra diferentes posibilidades en ambos géneros.\n</div><div><br></div></div>\n    </div>\n</section>",
-          "_cid": "s26HdiD2p4",
-          "_anchor": "content4-1c",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary-outline\" href=\"hola-hi.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s26SO9e45T",
-          "_anchor": "content5-1h",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text DIV": {
-              "text-align": "left"
-            },
-            ".mbr-text": {
-              "text-align": "left",
-              "color": "#303849"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#7ae6ff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>FORMACIÓN</b><br><br> \n<div>Artes Plásticas 2014 \n</div><div>Universidad de Antioquia - Medellín/Colombia\n</div><div>Cuarto semestre</div><br><div> \n</div><div>\n</div><div>Comunicación Social – Periodismo 2016 \n</div><div>Universidad Pontificia Bolivariana - Medellín/Colombia</div></div>\n    </div>\n</section>",
-          "_cid": "s26IaefQe1",
-          "_anchor": "content4-1d",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text DIV": {
-              "text-align": "left"
-            },
-            ".mbr-text": {
-              "text-align": "left"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>EXPERIENCIA Y PROYECTOS\n</b><br><b><br></b><div>°Revista Blast/Periodista-Integrante del equipo editorial/2019-actual\n</div><div>&nbsp; &nbsp;<a href=\"https://www.revistablast.com/author/laura\" target=\"_blank\" class=\"text-danger\">[revistablast.com/author/laura]</a></div><div><br></div><div>°Ver con los oídos en pandemia/Creadora/2020-actual\n</div><div>&nbsp; &nbsp;<a href=\"https://www.instagram.com/ver_con_los_oidos_en_pandemia\" target=\"_blank\" class=\"text-danger\">[instagram.com/ver_con_los_oidos_en_pandemia]</a></div><div>&nbsp;</div><div>°Blind Date 2019: Beca de creación Ministerio de Cultura Colombia y Festival de Cómic de Toronto/Creadora/2019\n</div><div>&nbsp; &nbsp;<a href=\"https://www.blind-date-comic.hotglue.me\" target=\"_blank\" class=\"text-danger\">[blind-date-comic.hotglue.me\n]</a></div><div><br></div><div>°Residencia Lengua Negra/Residente/2019</div><br>°Cosméticos Marylin/Creadora de contenido y administradora de las redes sociales/2019<br>&nbsp; &nbsp;<a href=\"https://www.instagram.com/marylincosmeticos/\" target=\"_blank\" class=\"text-danger\">[instagram.com/marylincosmeticos/ - contenido publicado del 13 de febrero al 3 octubre del 2019]</a><br><div>\n</div><br><div>°Historias de buses/Creadora/2018&nbsp;<br></div><div>&nbsp; &nbsp;<a href=\"https://www.historiasdebuses.hotglue.me\" target=\"_blank\" class=\"text-danger\">[historiasdebuses.hotglue.me]</a></div><div><br></div><div>°Sospechas de un archivo/Auxiliar de archivo/Proyecto del colectivo Algo está\n pasando/2018&nbsp;</div><br><div>°Datos Abiertos Medellín/Colaboradora/2016-2017&nbsp;<br></div><div>&nbsp; <a href=\"https://www.medium.com/@datosabiertosmedellin\" target=\"_blank\" class=\"text-danger\">&nbsp;[medium.com/@datosabiertosmedellin]</a></div><br><div>°Q’haydeNuev9/Periodista/2013-2014&nbsp;</div><br><div>°Fundación Viztaz/Auxiliar de archivo/2016</div><div>&nbsp; &nbsp;<a href=\"https://viztaz.org/albumes.html\" target=\"_blank\" class=\"text-danger\">[viztaz.org/albumes]</a></div></div>\n    </div>\n</section>",
-          "_cid": "s26GLNymhY",
-          "_anchor": "content4-1b",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text DIV": {
-              "text-align": "left"
-            },
-            ".mbr-text": {
-              "text-align": "left"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>PARTICIPACIONES [ARTES PLÁSTICAS]\n</b><br><br><div>&lt;Exposición de dibujo Expedición San Ignacio, Confama sede San Ignacio 2020&gt;</div><br><div>&lt;Beca\n Cita a Ciegas - Festival de Cómic de Toronto y Ministerio de cultura 2019&gt;</div><br><div>&lt;Residencia artística en el espacio Lengua Negra 2019&gt;</div><br><div>&lt;Exposición Grabadores de Domingo La Salida en Benito Garaje 2019&gt;</div><br><div> &lt;Grupo de Grabadores de Domingo en el taller La Salida 2019-2020&gt;</div><br><div>&lt;Exposición Digna rebeldía en Casa Benet (Rio de Janeiro, Br) 2019&gt;</div><br><div>&lt;VI Salón de grabado Museo el Castillo 2019&gt;</div><br><div>&lt;I Encuentro de artistas gráficos en Medellín 2018&gt;</div><br><div> &lt;Fototropismos Salón Gif 2018&gt;</div><br><div>&lt;IV Exposición Internacional de Gráfico Taller La Huella, Colombia 2017&gt;</div><br><div> &lt;Exposición Taller de historieta La Chimenea 2017&gt;</div><br><div>&lt;Participación del laboratorio de historieta La Chimenea 2017&gt;</div><br><div> &lt;II Exposición Taller grupo de retrato de Taller 7 2017&gt;</div><br><div> &lt;Exposición Satélite en La Casa Redonda 2016&gt;</div><br><div>&lt;Participación del grupo de retrato de Taller 7&gt;<br></div></div>\n    </div>\n</section>",
-          "_cid": "s26IB6CbDV",
-          "_anchor": "content4-1e",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"hola-hi.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s26TTYXaEE",
-          "_anchor": "content5-1i",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".iconfont-wrapper": {
-              "background": "@iconsBg",
-              ".amp-iconfont": {
-                "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
-                "font-size": "~\"@{iconsSize}rem\"",
-                "width": "~\"@{iconsSize}rem\""
-              }
-            }
-          },
-          "_name": "social-follow",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\">\n        <input type=\"range\" inline title=\"Numero de Iconos\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline title=\"Tamaño de Iconos\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.6\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Fnd Iconos\" value=\"#4addff\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper align-center\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light mbr-pt-1 mbr-pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"https://www.instagram.com/seafilantijeras\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-instagram fa\"></span>\n                </span>\n            </a>\n            <a href=\"mailto:canaslaura1@gmail.com\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-google fa\"></span>\n                </span>\n            </a>\n            <a href=\"https://wa.me/573122896544\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a>\n            \n                \n                \n                \n            </div>\n        </div>\n    </section>",
-          "_cid": "s26RzskNmm",
-          "_anchor": "social-follow-1g",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text>° Laura M Cañas Palacio | canaslaura1@gmail.com | + 57 3122896544 | MDE - COL °</div>\n    </div>\n</section>",
-          "_cid": "s27DG9ICKW",
-          "_anchor": "content4-28",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
-    },
     "periodismo-journalism.html": {
       "settings": {
         "title": "laura cañas/periodismo",
@@ -2714,7 +2548,7 @@
             }
           },
           "_name": "image1",
-          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Ancho\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Mostrar Leyenda\" name=\"showText\" checked=\"\">\n\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/gif-a-portada-pagina-web-imagen-final-1.gif\" layout=\"responsive\" width=\"1350\" height=\"1012.5\" alt=\"Mobirise\" class=\"mobirise-loader mbr-m-auto\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"https://docs.google.com/presentation/d/e/2PACX-1vRhilK5506cmpqbT6fplnsfEiPPQhyuyng93JPHtcKqy9qVXNTFqGQs3Ixk3WlfBxci8tAZTWagW9zZ/pub?start=false&amp;loop=false&amp;delayms=3000\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/gif-a-portada-pagina-web-imagen-final-1.gif\" alt=\"Mobirise\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"https://docs.google.com/presentation/d/e/2PACX-1vRhilK5506cmpqbT6fplnsfEiPPQhyuyng93JPHtcKqy9qVXNTFqGQs3Ixk3WlfBxci8tAZTWagW9zZ/pub?start=false&amp;loop=false&amp;delayms=3000\" class=\"text-primary\" target=\"_blank\">--&gt; Click</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Ancho\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Mostrar Leyenda\" name=\"showText\" checked=\"\">\n\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/gif-a-portada-pagina-web-imagen-final-1.gif\" layout=\"responsive\" width=\"1346\" height=\"1009.5\" alt=\"Mobirise\" class=\"mobirise-loader mbr-m-auto\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"https://docs.google.com/presentation/d/e/2PACX-1vRhilK5506cmpqbT6fplnsfEiPPQhyuyng93JPHtcKqy9qVXNTFqGQs3Ixk3WlfBxci8tAZTWagW9zZ/pub?start=false&amp;loop=false&amp;delayms=3000\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/gif-a-portada-pagina-web-imagen-final-1.gif\" alt=\"Mobirise\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"https://docs.google.com/presentation/d/e/2PACX-1vRhilK5506cmpqbT6fplnsfEiPPQhyuyng93JPHtcKqy9qVXNTFqGQs3Ixk3WlfBxci8tAZTWagW9zZ/pub?start=false&amp;loop=false&amp;delayms=3000\" class=\"text-primary\" target=\"_blank\">--&gt; Click</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sgKw0MG1vP",
           "_anchor": "image1-6o",
           "_protectedParams": [],
@@ -2751,7 +2585,7 @@
           },
           "_name": "image1",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline=\"\" title=\"Ancho\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"65\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/ficha-tecnica-pagina-web-1361x397.jpg\" layout=\"responsive\" width=\"1349.9645869017634\" height=\"393.781\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/ficha-tecnica-pagina-web-1361x397.jpg\" alt=\"Mobirise\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-4': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline=\"\" title=\"Ancho\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"65\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/ficha-tecnica-pagina-web-1361x397.jpg\" layout=\"responsive\" width=\"1345.9467229219142\" height=\"392.609\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/ficha-tecnica-pagina-web-1361x397.jpg\" alt=\"Mobirise\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-4': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sheLSwQI8g",
           "_anchor": "image1-6u",
           "_protectedParams": [],
@@ -2811,7 +2645,7 @@
           },
           "_name": "image1",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline=\"\" title=\"Ancho\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"65\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/footer-pagina-web-1400x255.jpeg\" layout=\"responsive\" width=\"1349.9225490196077\" height=\"196.703\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/footer-pagina-web-1400x255.jpeg\" alt=\"Mobirise\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-4': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline=\"\" title=\"Ancho\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"65\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/footer-pagina-web-1400x255.jpeg\" layout=\"responsive\" width=\"1345.955882352941\" height=\"196.125\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/footer-pagina-web-1400x255.jpeg\" alt=\"Mobirise\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-4': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "shtTfUFYhN",
           "_anchor": "image1-6v",
           "_protectedParams": [],
@@ -2954,7 +2788,7 @@
           },
           "_name": "accordion1",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"accordion\" group=\"Toggles & Tabs\" plugins=\"amp-main,amp-accordion\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" inline title=\"Ancho\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"7\" step=\"1\">\n        <header>Show/hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Tabs</header>\n        <select title=\"Tabs\" name=\"tabsAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"headerGradient\">\n        <input type=\"color\" title=\"Header\" name=\"tabsColor1\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Header 2\" name=\"gradient\" value=\"#005af0\" condition=\"headerGradient\">\n        <input type=\"color\" title=\"Content\" name=\"tabsColor2\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Border\" name=\"border\">\n        <input type=\"color\" title=\"Border Color\" name=\"tabsBorder\" value=\"#dfdfdf\" condition=\"border\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n      <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n          <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\" mbr-if=\"showTitle || showSubtitle\">\n              <h3 class=\"mbr-fonts-style mbr-section-title mbr-bold align-center\" mbr-if=\"showTitle\" mbr-class=\"{'mbr-pb-2': showSubtitle}\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-title\">(0▿0)</h3>\n              <h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-regular align-center\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore incidunt molestias, vitae recusandae error ipsam distinctio, ipsum.</h4>\n          </div>\n            \n        <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{widthContent}}\">\n        <amp-accordion class=\"accordion\" expand-single-section mbr-class=\"{'mbr-pt-4': showTitle || showSubtitle}\">\n          <section>\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Grabado / Printmaking</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">2021 | <a href=\"grabado-printmaking.html#top\" class=\"text-success\" target=\"_blank\">Montañas en subtonos | Mountains in undertones</a><br>2020 | <a href=\"grabado-printmaking.html#content4-7b\" class=\"text-success\" target=\"_blank\">Máscaras | Masks&nbsp;</a><br>2020 | <a href=\"grabado-printmaking.html#content4-33\" class=\"text-success text-primary\"></a><a href=\"grabado-printmaking.html#content4-33\" class=\"text-success\" target=\"_blank\">La ciudad es femenina&nbsp;| The city is femenine</a><a href=\"grabado-printmaking.html#content4-7b\" class=\"text-warning text-primary\" target=\"_blank\"><br></a>2019 | <a href=\"grabado-printmaking.html#content4-37\" class=\"text-success\" target=\"_blank\">Mde</a>&nbsp;<br>2017 | <a href=\"grabado-printmaking.html#content4-7n\" class=\"text-success\" target=\"_blank\">Microciudades | Microcities</a><br>2016 | <a href=\"grabado-printmaking.html#content4-7o\" class=\"text-success\" target=\"_blank\">La hoja y la serpiente | The leaf and the serpent</a><br>0000 | <a href=\"grabado-printmaking.html#content4-36\" class=\"text-success\" target=\"_blank\">Varios | Various</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 1\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; Ilustración &amp; cómic / Illustration &amp; comic</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">2021 | <a href=\"comic.html#content4-8k\" class=\"text-success\" target=\"_blank\">Exploraciones geográficas: Antioquia &amp; Oeste de Texas | Geographical explorations: Antioquia &amp; West Texas</a><br><br>2020 | <a href=\"comic.html#content4-8h\" class=\"text-success\" target=\"_blank\">Miedo a la oscuridad | Fear to darkness</a><br><br>2020 | <a href=\"comic.html#content4-8i\" class=\"text-success\" target=\"_blank\">Paredes sutiles | Subtle walls</a><br>\n<br>2019 |&nbsp;<a href=\"comic.html#content4-8n\" class=\"text-success\" target=\"_blank\">Las palabras las inventaron los árboles | The words were invented by the trees</a><br>\n<br>2019 | <a href=\"comic.html#content4-8z\" class=\"text-success\" target=\"_blank\">En el inconsciente | In the&nbsp;unconscious</a><br>\n<br>2019 |<a href=\"comic.html#content4-8j\" class=\"text-success\" target=\"_blank\"> Un primer encuentro | A first meeting [Blind date comic]&nbsp;</a><br>\n<br>2018 |<a href=\"comic.html#content4-8r\" class=\"text-success\" target=\"_blank\"> Extraños solitarios | Lonely strangers</a><br>\n<br>2017 |<a href=\"comic.html#content4-8v\" class=\"text-success\" target=\"_blank\"> Alcantarillas | Sewers&nbsp;</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 2\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Periodismo / Journalism</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\"><a href=\"periodismo-journalism.html\" class=\"text-success\" target=\"_blank\">Publicaciones periodísticas | Journalistic publications</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 3\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CV</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\"><a href=\"laura-cv.html\" class=\"text-success\" target=\"_blank\">Hoja de vida | CV</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 4\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">What is Mobirise?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n                  </p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 5\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">What is Mobirise?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n                  </p>\n                </div>\n            </section>\n        </amp-accordion>\n      </div>\n    </div>\n</div></section>",
+          "_customHTML": "<section class=\"accordion\" group=\"Toggles & Tabs\" plugins=\"amp-main,amp-accordion\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" inline title=\"Ancho\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"7\" step=\"1\">\n        <header>Show/hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Tabs</header>\n        <select title=\"Tabs\" name=\"tabsAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"headerGradient\">\n        <input type=\"color\" title=\"Header\" name=\"tabsColor1\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Header 2\" name=\"gradient\" value=\"#005af0\" condition=\"headerGradient\">\n        <input type=\"color\" title=\"Content\" name=\"tabsColor2\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Border\" name=\"border\">\n        <input type=\"color\" title=\"Border Color\" name=\"tabsBorder\" value=\"#dfdfdf\" condition=\"border\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n      <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n          <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\" mbr-if=\"showTitle || showSubtitle\">\n              <h3 class=\"mbr-fonts-style mbr-section-title mbr-bold align-center\" mbr-if=\"showTitle\" mbr-class=\"{'mbr-pb-2': showSubtitle}\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-title\">(0▿0)</h3>\n              <h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-regular align-center\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore incidunt molestias, vitae recusandae error ipsam distinctio, ipsum.</h4>\n          </div>\n            \n        <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{widthContent}}\">\n        <amp-accordion class=\"accordion\" expand-single-section mbr-class=\"{'mbr-pt-4': showTitle || showSubtitle}\">\n          <section>\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Grabado / Printmaking</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">2021 | <a href=\"grabado-printmaking.html#top\" class=\"text-success\" target=\"_blank\">Montañas en subtonos | Mountains in undertones</a><br>2020 | <a href=\"grabado-printmaking.html#content4-7b\" class=\"text-success\" target=\"_blank\">Máscaras | Masks&nbsp;</a><br>2020 | <a href=\"grabado-printmaking.html#content4-33\" class=\"text-success text-primary\"></a><a href=\"grabado-printmaking.html#content4-33\" class=\"text-success\" target=\"_blank\">La ciudad es femenina&nbsp;| The city is femenine</a><a href=\"grabado-printmaking.html#content4-7b\" class=\"text-warning text-primary\" target=\"_blank\"><br></a>2019 | <a href=\"grabado-printmaking.html#content4-37\" class=\"text-success\" target=\"_blank\">Mde</a>&nbsp;<br>2017 | <a href=\"grabado-printmaking.html#content4-7n\" class=\"text-success\" target=\"_blank\">Microciudades | Microcities</a><br>2016 | <a href=\"grabado-printmaking.html#content4-7o\" class=\"text-success\" target=\"_blank\">La hoja y la serpiente | The leaf and the serpent</a><br>0000 | <a href=\"grabado-printmaking.html#content4-36\" class=\"text-success\" target=\"_blank\">Varios | Various</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 1\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; Ilustración &amp; cómic / Illustration &amp; comic</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">2021 | <a href=\"comic.html#content4-8k\" class=\"text-success\" target=\"_blank\">Exploraciones geográficas: Antioquia &amp; Oeste de Texas | Geographical explorations: Antioquia &amp; West Texas</a><br><br>2020 | <a href=\"comic.html#content4-8h\" class=\"text-success\" target=\"_blank\">Miedo a la oscuridad | Fear to darkness</a><br><br>2020 | <a href=\"comic.html#content4-8i\" class=\"text-success\" target=\"_blank\">Paredes sutiles | Subtle walls</a><br>\n<br>2019 |&nbsp;<a href=\"comic.html#content4-8n\" class=\"text-success\" target=\"_blank\">Las palabras las inventaron los árboles | The words were invented by the trees</a><br>\n<br>2019 | <a href=\"comic.html#content4-8z\" class=\"text-success\" target=\"_blank\">En el inconsciente | In the&nbsp;unconscious</a><br>\n<br>2019 |<a href=\"comic.html#content4-8j\" class=\"text-success\" target=\"_blank\"> Un primer encuentro | A first meeting [Blind date comic]&nbsp;</a><br>\n<br>2018 |<a href=\"comic.html#content4-8r\" class=\"text-success\" target=\"_blank\"> Extraños solitarios | Lonely strangers</a><br>\n<br>2017 |<a href=\"comic.html#content4-8v\" class=\"text-success\" target=\"_blank\"> Alcantarillas | Sewers&nbsp;</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 2\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Periodismo / Journalism</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\"><a href=\"periodismo-journalism.html\" class=\"text-success\" target=\"_blank\">Publicaciones periodísticas | Journalistic publications</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 3\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CV</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\"><a href=\"cv-esp.html\" class=\"text-success text-primary\" target=\"_blank\"></a><a href=\"cv-esp.html\" class=\"text-success\" target=\"_blank\">CV&nbsp;(Español</a>)<br><a href=\"cv-ing.html\" class=\"text-success\" target=\"_blank\">CV (English)</a></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 4\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">What is Mobirise?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n                  </p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 5\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">What is Mobirise?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n                  </p>\n                </div>\n            </section>\n        </amp-accordion>\n      </div>\n    </div>\n</div></section>",
           "_cid": "swdslKItc1",
           "_anchor": "accordion1-6y",
           "_protectedParams": [],
@@ -3000,6 +2834,306 @@
           "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text>° Laura M Cañas Palacio | canaslaura1@gmail.com | + 57 3122896544 | MDE - COL °</div>\n    </div>\n</section>",
           "_cid": "s27CVr3bJU",
           "_anchor": "content4-26",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "cv-esp.html": {
+      "settings": {
+        "title": "laura cañas/cv",
+        "order": 5
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><b>LAURA CAÑAS&nbsp;</b><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">/CV/</b><br><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\"><br></b><div>\n</div><div>\n</div><div>Su obra artística aplica el grabado como medio principal, experimentando con diferentes técnicas y materiales, desarrollando su propio método de producción. Así, algunos de sus grabados son de única edición, trabajando desde una nueva concepción del grabado. Su trabajo está influenciado por el periodismo como método de investigación de la realidad que le rodea y la historieta como ejercicio de narración visual. Su obra refleja contrastes entre elementos explorando especialmente la ciudad y la naturaleza, y las dinámicas sociales y la feminidad. Ha trabajado en proyectos de archivo y publicaciones periodísticas.&nbsp;</div><div><br></div></div>\n    </div>\n</section>",
+          "_cid": "s26HdiD2p4",
+          "_anchor": "content4-1c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text DIV": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "left",
+              "color": "#303849"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>FORMACIÓN</b><br><br> \n<div>Comunicación Social – Periodismo 2016<br></div><div>Universidad Pontificia Bolivariana - Medellín/Colombia</div><br><div>Diplomado Ilustración, arte y oficio de Tragaluz Editores y Comfenalco, 2020</div><br><div>Diplomado de profundización en ilustración de Tragaluz Editores y Comfenalco, 2021</div></div>\n    </div>\n</section>",
+          "_cid": "s26IaefQe1",
+          "_anchor": "content4-1d",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text DIV": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>EXPERIENCIA LABORAL&nbsp;</b><br><b><br></b><div>2019&nbsp; &nbsp; &nbsp; Revista Blast | Periodista-Integrante del equipo editorial</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://www.revistablast.com/author/laura\" target=\"_blank\" class=\"text-success\"><b>revistablast.com/author/laura</b></a></div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; Ver con los oídos en pandemia | Creadora</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://www.instagram.com/ver_con_los_oidos_en_pandemia\" target=\"_blank\" class=\"text-success\"><b>instagram.com/ver_con_los_oidos_en_pandemia</b></a></div><div>&nbsp;</div><br>2019&nbsp; &nbsp; &nbsp; Cosméticos Marylin | Creadora de contenido para redes sociales<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>&nbsp;<a href=\"https://www.instagram.com/marylincosmeticos/\" target=\"_blank\" class=\"text-success\">instagram.com/marylincosmeticos - contenido publicado del 13 de febrero al 3 octubre del 2019</a></b><br><div>\n</div><br><div>2018&nbsp; &nbsp; &nbsp; Historias de buses | Creadora&nbsp;&nbsp;<br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://www.historiasdebuses.hotglue.me\" target=\"_blank\" class=\"text-danger\"><b>historiasdebuses.hotglue.me</b></a></div><div><br></div><div>2018&nbsp; &nbsp; &nbsp; Sospechas de un archivo | Auxiliar de archivo | Proyecto del colectivo Algo está\n pasando&nbsp;</div><br><div>2017&nbsp; &nbsp; &nbsp; Datos Abiertos Medellín | Colaboradora&nbsp;<br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://www.medium.com/@datosabiertosmedellin\" target=\"_blank\" class=\"text-danger\"><b>&nbsp;medium.com/@datosabiertosmedellin</b></a></div><br><div>2016&nbsp; &nbsp; &nbsp; Fundación Viztaz | Auxiliar de archivo</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<b><a href=\"https://viztaz.org/albumes.html\" target=\"_blank\" class=\"text-success\">viztaz.org/albumes</a>&nbsp;</b></div><br><div>2014&nbsp; &nbsp; &nbsp; Q’haydeNuev9 | Periodista&nbsp;</div></div>\n    </div>\n</section>",
+          "_cid": "s26GLNymhY",
+          "_anchor": "content4-1b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text DIV": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>EXPOSICIONES GRUPALES</b><br><br>\n<br>2020&nbsp; &nbsp; &nbsp; &nbsp; Expedición San Ignacio, Comfama sede San Ignacio, Medellín, Col<br><br><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Grabadores de Domingo La Salida, Benito Garage, Medellín, Col</div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Digna Rebeldía, Casa Benet, Rio de Janeiro, B</div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; &nbsp; VI Salón de Grabado, Museo el Castillo, Medellín, Col</div><div><br></div><div>2018&nbsp; &nbsp; &nbsp; &nbsp; I Encuentro de artistas gráficos, Medellín, Col</div><div><br></div><div>2018&nbsp; &nbsp; &nbsp; &nbsp; Fototropismos Salón Gif, Casa N.N., Medellín, Col</div><br><div>2017&nbsp; &nbsp; &nbsp; &nbsp; IV Exposición Internacional de Gráfico, Taller La Huella, Floridablanca, Col</div><div><br></div><div>2017&nbsp; &nbsp; &nbsp; &nbsp; La Chimenea, Residencia Por Estos Días, Medellín, Col</div><div><br></div><div>2017&nbsp; &nbsp; &nbsp; &nbsp; II Exposición Grupo de retrato, Residencia Taller 7, Medellín, Col</div><div><br></div><div>2016&nbsp; &nbsp; &nbsp; &nbsp; Satélite, Casa Redonda, Medellín, Col</div><div><br></div><div>2013&nbsp; &nbsp; &nbsp; &nbsp; I Exposición Grupo de retrato, Residencia Taller 7, Medellín, Col</div><div><br></div><div><b>RESIDENCIAS</b></div><br><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Lengua Negra, Medellín, Col</div><br><div><b>PARTICIPACIÓN EN GRUPOS DE ARTE</b></div><br><div>\n</div><div>2019 - actual&nbsp; &nbsp; &nbsp; &nbsp; Grupo de Grabadores de Domingo</div><div><br></div><div>2017 - actual&nbsp; &nbsp; &nbsp; &nbsp; Laboratorio de historieta La Chimenea</div><div><br></div><div>2012 - actual&nbsp; &nbsp; &nbsp; &nbsp; Grupo de Retrato de los viernes</div><br><div><b>PREMIOS</b></div><div><br></div><div>2021&nbsp; &nbsp; &nbsp; &nbsp; Estímulo Creatividad en el Espacio Público, Secretaría de Cultura de Medellín, Col</div><br><div>2020&nbsp; &nbsp; &nbsp; &nbsp; Beca artista emergente, Secretaría de Cultura de Medellín, Col</div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Blind Date, Creative Grant from Ministry of Culture of Colombia and Toronto Comic Arts Festival<br></div><div><br></div><br><div><br></div><div>\n</div><div>\n</div><div>\n</div></div>\n    </div>\n</section>",
+          "_cid": "s26IB6CbDV",
+          "_anchor": "content4-1e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"hola-hi.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s26TTYXaEE",
+          "_anchor": "content5-1i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".iconfont-wrapper": {
+              "background": "@iconsBg",
+              ".amp-iconfont": {
+                "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
+                "font-size": "~\"@{iconsSize}rem\"",
+                "width": "~\"@{iconsSize}rem\""
+              }
+            }
+          },
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\">\n        <input type=\"range\" inline title=\"Numero de Iconos\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline title=\"Tamaño de Iconos\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.6\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Fnd Iconos\" value=\"#4addff\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper align-center\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light mbr-pt-1 mbr-pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"https://www.instagram.com/seafilantijeras\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-instagram fa\"></span>\n                </span>\n            </a>\n            <a href=\"mailto:canaslaura1@gmail.com\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-google fa\"></span>\n                </span>\n            </a>\n            <a href=\"https://wa.me/573122896544\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a>\n            \n                \n                \n                \n            </div>\n        </div>\n    </section>",
+          "_cid": "s26RzskNmm",
+          "_anchor": "social-follow-1g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text>° Laura M Cañas Palacio | canaslaura1@gmail.com | + 57 3122896544 | MDE - COL °</div>\n    </div>\n</section>",
+          "_cid": "s27DG9ICKW",
+          "_anchor": "content4-28",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "cv-ing.html": {
+      "settings": {
+        "title": "laura cañas/cv-ing",
+        "order": 6
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><b>LAURA CAÑAS&nbsp;</b><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">/CV/</b><br><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\"><br></b><div>\n</div><div>\n</div><div>Artist and journalist. Printmaking is her main medium. She experiments with different techniques and materials, developing her own method of production. Therefore some of her prints are single edition, working from a different printmaking concept. Her work is influenced by journalism, as a way to investigate reality around her, and comics, as a way to create visual narratives. Her work reflects contrasts between elements, such as exploring the city and nature, social dynamics and femininity. As a journalist, she has worked in archiving and publishing.\n</div><div><br></div><div><br></div></div>\n    </div>\n</section>",
+          "_cid": "swFLZqQ6Xy",
+          "_anchor": "content4-91",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text DIV": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "left",
+              "color": "#303849"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>EDUCATION</b><br><br>Bachelor in Journalism 2016, Universidad Pontificia Bolivariana, Medellín, Colombia<div><br></div><div>Certificate in Illustration as Art and Work, 2020, Tragaluz Editores y Comfenalco, Colombia</div><div><br></div><div>Certificate in Deepening Illustration, 2021, Tragaluz Editores y Comfenalco, Colombia</div><div><br></div></div>\n    </div>\n</section>",
+          "_cid": "swFLZrB3Bh",
+          "_anchor": "content4-92",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text DIV": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>EXPERIENCIA LABORAL&nbsp;</b><br><b><br></b><div>2019&nbsp; &nbsp; &nbsp; Blast Magazine | Journalist</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://www.revistablast.com/author/laura\" target=\"_blank\" class=\"text-success\"><b>revistablast.com/author/laura</b></a></div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; Ver con los oídos en pandemia (See with the eyes on the pandemic) | Creator</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://www.instagram.com/ver_con_los_oidos_en_pandemia\" target=\"_blank\" class=\"text-success\"><b>instagram.com/ver_con_los_oidos_en_pandemia</b></a></div><div>&nbsp;</div><br>2019&nbsp; &nbsp; &nbsp; Cosméticos Marylin | Social media manager<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>&nbsp;<a href=\"https://www.instagram.com/marylincosmeticos/\" target=\"_blank\" class=\"text-success\">instagram.com/marylincosmeticos - contenido publicado del 13 de febrero al 3 octubre del 2019</a></b><br><div>\n</div><br><div>2018&nbsp; &nbsp; &nbsp; Historias de buses (Stories of busses)| Creator&nbsp;<br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://www.historiasdebuses.hotglue.me\" target=\"_blank\" class=\"text-danger\"><b>historiasdebuses.hotglue.me</b></a></div><div><br></div><div>2018&nbsp; &nbsp; &nbsp; Suspicions of a file | Archive assistant | Project of ‘Algo Está Pasando’ (Something’s Happening)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; collective</div><br><div>2017&nbsp; &nbsp; &nbsp; Open Data Medellín | Collaborator<br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://www.medium.com/@datosabiertosmedellin\" target=\"_blank\" class=\"text-danger\"><b>&nbsp;medium.com/@datosabiertosmedellin</b></a></div><br><div>2016&nbsp; &nbsp; &nbsp; Foundation Viztaz | Archive assistant</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<b><a href=\"https://viztaz.org/albumes.html\" target=\"_blank\" class=\"text-success\">viztaz.org/albumes</a>&nbsp;</b></div><br><div>2014&nbsp; &nbsp; &nbsp; Q’haydeNuev9 | Journalist</div></div>\n    </div>\n</section>",
+          "_cid": "swFLZs3pjB",
+          "_anchor": "content4-93",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text DIV": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#bffff8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><b>EXPOSICIONES GRUPALES</b><br><br>\n\n<br>2020&nbsp; &nbsp; &nbsp; &nbsp; Expedición San Ignacio (San Ignacio Expedition), Comfama San Ignacio, Medellín, Col<br><br><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Grabadores de Domingo La Salida (Sunday Printmakers La Salida), Benito Garage Gallery, Medellín, Col</div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Digna Rebeldía (Dignified Rebellion), Casa Benet Gallery, Rio de Janeiro, Br</div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; &nbsp; VI Salón de Grabado (Sixth Printmakers Salon), Museo el Castillo, Medellín, Col</div><div><br></div><div>2018&nbsp; &nbsp; &nbsp; &nbsp; I Encuentro de artistas grabadores (First Meeting of Printmaking Artists), Medellín, Col</div><div><br></div><div>2018&nbsp; &nbsp; &nbsp; &nbsp; Fototropismos Salón Gif, Casa N.N., Medellín, Col</div><div><br></div><div>2017&nbsp; &nbsp; &nbsp; &nbsp; IV Exposición Internacional de Gráfico (Fourth International Graphic Exhibit), Taller La Huella,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Floridablanca, Col</div><div><br></div><div>2017&nbsp; &nbsp; &nbsp; &nbsp; La Chimenea, Residencia Por Estos Días, Medellín, Col</div><div><br></div><div>2017&nbsp; &nbsp; &nbsp; &nbsp; II Exposición Grupo de retrato (Second Group Exhibit of Portraiture), Residencia Taller 7, Med, Col</div><div><br></div><div>2016&nbsp; &nbsp; &nbsp; &nbsp; Satélite, Casa Redonda, Medellín, Col</div><div><br></div><div>2013&nbsp; &nbsp; &nbsp; &nbsp; I Exposición Grupo de retrato (First Group Exhibit of Portraiture), Residencia Taller 7, Medellín, Col</div><div><br></div><div><div><br></div><div><b>RESIDENCIES</b></div><br><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Lengua Negra, Medellín, Col</div><br><div><b>ART GROUPS PARTICIPATION</b></div><br><div>\n</div><div>\n</div></div><div><br></div>2019 - Ongoing&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Grupo de Grabadores de Domingo (Sunday Printmakers La Salida)<div><br></div><div>2017 - Ongoing&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Laboratorio de historieta La Chimenea (Comic Lab La Chimenea)</div><div><br></div><div>2012 - Ongoing&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Grupo de Retrato de los viernes (Friday Portraiture Group)</div><div><br></div><div><b style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">AWARDS</b><br></div><div><div><br></div><div>2021&nbsp; &nbsp; &nbsp; &nbsp; Creativity in Public Spaces, Culture Secretary of Medellín, Col</div><div>\n</div><div><br></div><div>2020&nbsp; &nbsp; &nbsp; &nbsp; Emerging Artist Grant, Culture Secretary of Medellín, Col</div></div><div><div><br></div><div>2019&nbsp; &nbsp; &nbsp; &nbsp; Blind Date, Creative Grant from Ministry of Culture of Colombia and Toronto Comic Arts Festival</div></div><br><div><div>PROJECTS&nbsp;</div></div><br><br><div><div>\n</div><div>\n</div><div><br></div><div>2018 - Present&nbsp; &nbsp;Absolute zero (Ongoing)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Investigation of archive and academia to map out the intersections of art and communication. \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://absolutezero.hotglue.me/\" class=\"text-success\" target=\"_blank\"><b>absolutezero.hotglue.me</b></a></div></div><div><div><a href=\"https://absolutezero.hotglue.me/\" class=\"text-success\" target=\"_blank\"><b><br></b></a>\n</div><div>2020&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Máscaras Emerging Artist Grant, Culture Secretary of Medellín, Col</div><div>\n</div><div><br></div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Máscaras is a series of eleven large prints measuring 50cm by 70cm. They narrate in a visual-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;poetry the relations between the feminine, violence, and Colombia’s reality. This is done through&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;associating graphic elements with repetition, transparencies, superpositions, cut-outs, and other&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;techniques. The graphic figures represent women’s bodies, elements from the city and countryside,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;maps, and aspects of Catholicism.</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"mascaras.html\" class=\"text-success text-primary\" target=\"_blank\">https://lauraca-as.github.io/mascaras</a></div><div><a href=\"mascaras.html\" class=\"text-success text-primary\" target=\"_blank\"><br></a></div><div>2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Blind Date 2019. Creative Grant from Ministry of Culture of Colombia and Toronto Comic Arts&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Festival</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Comic created between the artists Karen Shangguan (Vancouver) and Laura Cañas (Medellín). Two&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;characters cross an intermediate imaginary city between Vancouver and Medellín, based on what the&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;artists shared about their respective cities. We explored the borders that separate and connect&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;us. It was a part of the special projects and programs of the Toronto Comic Arts Festival.</div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://blind-date-comic.hotglue.me/\" class=\"text-success\" target=\"_blank\">blind-date-comic.hotglue.me</a></b></div><div><b><a href=\"https://blind-date-comic.hotglue.me/\" class=\"text-success\" target=\"_blank\"><br></a></b></div><div>2018&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sospechas de un archivo (Suspicions of a file) | Archive Assistant</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Project of ‘Algo Está Pasando’ (Something’s Happening) collective. A digital archive of projects&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;that won the Open Call of Art and Culture of the Secretary of Culture of Medellín from 2004-2018.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Participated in the archive’s creation and structure, and in the consultation and systemazation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;of information.</div><div><br></div><div>\n<br><div><br></div><div>\n</div><div>\n</div><div>\n</div></div></div>\n    </div>\n</section>",
+          "_cid": "swFLZsqjZG",
+          "_anchor": "content4-94",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"hola-hi.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "swFLZsOXBW",
+          "_anchor": "content5-95",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".iconfont-wrapper": {
+              "background": "@iconsBg",
+              ".amp-iconfont": {
+                "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
+                "font-size": "~\"@{iconsSize}rem\"",
+                "width": "~\"@{iconsSize}rem\""
+              }
+            }
+          },
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\">\n        <input type=\"range\" inline title=\"Numero de Iconos\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline title=\"Tamaño de Iconos\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.6\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Fnd Iconos\" value=\"#4addff\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper align-center\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light mbr-pt-1 mbr-pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"https://www.instagram.com/seafilantijeras\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-instagram fa\"></span>\n                </span>\n            </a>\n            <a href=\"mailto:canaslaura1@gmail.com\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-google fa\"></span>\n                </span>\n            </a>\n            <a href=\"https://wa.me/573122896544\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a>\n            \n                \n                \n                \n            </div>\n        </div>\n    </section>",
+          "_cid": "swFLZt8qkG",
+          "_anchor": "social-follow-96",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#4addff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text>° Laura M Cañas Palacio | canaslaura1@gmail.com | + 57 3122896544 | MDE - COL °</div>\n    </div>\n</section>",
+          "_cid": "swFLZtS4p7",
+          "_anchor": "content4-97",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
